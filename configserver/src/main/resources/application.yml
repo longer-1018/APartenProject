@@ -1,0 +1,15 @@
+server:
+  port: 7001
+
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/VeryDifficultToName/0903
+          search-paths: src/main/resources
+          username: VeryDifficultToName
+          password: offcn18810533579
+

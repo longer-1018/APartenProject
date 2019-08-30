@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eureka-server01" />
+        <module name="userweb01" />
+        <module name="userweb02" />
+        <module name="userweb03" />
+        <module name="hystrix-dashboard" />
+        <module name="userprovider02" />
+        <module name="userprovider01" />
+        <module name="configserver" />
+        <module name="userweb04" />
+        <module name="eureka-server02" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="APartenProject" options="-parameters" />
+      <module name="configserver" options="-parameters" />
+      <module name="eureka-server01" options="-parameters" />
+      <module name="eureka-server02" options="-parameters" />
+      <module name="hystrix-dashboard" options="-parameters" />
+      <module name="userprovider01" options="-parameters" />
+      <module name="userprovider02" options="-parameters" />
+      <module name="userweb01" options="-parameters" />
+      <module name="userweb02" options="-parameters" />
+      <module name="userweb03" options="-parameters" />
+      <module name="userweb04" options="-parameters" />
+    </option>
+  </component>
+</project>

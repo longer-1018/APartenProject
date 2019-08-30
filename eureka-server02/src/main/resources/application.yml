@@ -1,0 +1,13 @@
+#内置的tomcat服务启动监听端口号
+server:
+  port: 10087
+#应用名称
+spring:
+  application:
+    name: eureka
+#EurekaServer配置
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10086/eureka #指向高可用另外一台Eureka服务器
+
